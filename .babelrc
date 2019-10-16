@@ -1,0 +1,16 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "models": "./src/models/",
+          "resolvers": "./src/resolvers/",
+          "typedefs": "./src/typedefs/"
+        }
+      }
+    ]
+  ]
+}
